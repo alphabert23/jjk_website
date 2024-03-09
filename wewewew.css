@@ -1,0 +1,126 @@
+/* This is our CSS style file */
+h1{
+    text-align:  center;
+}
+
+/* You can specify colors by name */
+h2{
+    color : violet;
+    background-color: black;
+}
+
+/* You can also specify by rgb (red, green, blue) */
+p {
+    color: rgb(0,0,0)
+}
+
+/* You can also specify using hex codes */
+h3 {
+    background-color: #000000;
+    color: #ffffff
+}
+
+th, td, caption{
+    color: purple;
+    font-weight: bold
+}
+
+td{
+    font-weight: normal
+}
+
+/* shortcut for comments is still ctrl + / */
+
+/* font-family fonts used for the element */
+h1,h2,h3{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-family: Verdana;
+}
+
+/* We can set font size using pt */
+blockquote{
+    font-size: 6pt;
+}
+/* We can set font size using px */
+blockquote{
+    font-size: 20px;
+}
+
+/* We can set font size using em */
+blockquote{
+    font-size: 2em;
+}
+
+/* We can set font size using percentage */
+blockquote{
+    font-size: 200%;
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+body{
+    background-color: beige;
+    background-image: url("https://p325k7wa.twic.pics/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg?twic=v1/resize=760/step=10/quality=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+ 
+#subtitle{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+li.clan{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    text-decoration: underline;
+}
+
+li:hover{
+    font-size: 1.5em;
+    color: blue
+}
+
+
+p.summary:first-letter{
+    font-size:  2em;
+}
+
+span.emphasized{
+    font-style: italic;
+    color:grey;
+    font-size: 1.2em;
+}
+
+
+/* ul li{
+    color:rgb(150, 30, 136)
+} */
+
+
+.selector1 > p{
+    color:blue
+}
+
+#yuji{
+    border:black 10px ridge;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+}
+/*
+.image{
+    text-align: center;
+}
+div.image a:visited{
+    color:aliceblue
+} */
